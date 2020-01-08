@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="creating Self-contained JAR">
+    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="pom.xml update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,7 @@
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
       <workItem from="1578451578943" duration="11726000" />
-      <workItem from="1578468175075" duration="1196000" />
+      <workItem from="1578468175075" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -301,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578468899041</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="app.java-update">
+      <created>1578469408377</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469408377</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pom.xml update">
+      <created>1578469432139</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469432139</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +338,9 @@
     <MESSAGE value="mongo-pom" />
     <MESSAGE value="mongo-update (app.java)" />
     <MESSAGE value="creating Self-contained JAR" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Self-contained JAR" />
+    <MESSAGE value="app.java-update" />
+    <MESSAGE value="pom.xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1578465243992">
@@ -353,10 +367,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="89" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578469406124">
+    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578469597706">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="89" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578469406124" />
+    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578469597706" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
