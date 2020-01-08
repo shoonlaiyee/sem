@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +19,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="shoonlaiyee &lt;40440094@live.napier.ac.uk&gt;s" />
         <option value="shoonlaiyee &lt;40440094@live.napier.ac.uk&gt;" />
+        <option value="sh" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/mongo-intergration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,12 +56,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -74,9 +75,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="mongo:latest" />
+          <option name="commandLineOptions" value="-p 27000:27012" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.Dockerfile" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -84,8 +115,24 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.35657144" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -109,7 +156,8 @@
       <workItem from="1578411978641" duration="418000" />
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
-      <workItem from="1578451578943" duration="1954000" />
+      <workItem from="1578451578943" duration="11726000" />
+      <workItem from="1578468175075" duration="6264000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -216,14 +264,118 @@
       <option name="project" value="LOCAL" />
       <updated>1578455764171</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="build status (readme.md update)">
+      <created>1578455872163</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578455872163</updated>
+    </task>
+    <task id="LOCAL-00017" summary="build status">
+      <created>1578455905591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578455905591</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feature-branch">
+      <created>1578464085200</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464085200</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mongo">
+      <created>1578466615823</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578466615823</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mongo-pom">
+      <created>1578467274827</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578467274827</updated>
+    </task>
+    <task id="LOCAL-00021" summary="mongo-update (app.java)">
+      <created>1578468511683</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578468511683</updated>
+    </task>
+    <task id="LOCAL-00022" summary="creating Self-contained JAR">
+      <created>1578468899041</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578468899041</updated>
+    </task>
+    <task id="LOCAL-00023" summary="app.java-update">
+      <created>1578469408377</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469408377</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pom.xml update">
+      <created>1578469432139</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469432139</updated>
+    </task>
+    <task id="LOCAL-00025" summary="app.java updated">
+      <created>1578469621224</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469621224</updated>
+    </task>
+    <task id="LOCAL-00026" summary="pom.xml-updated">
+      <created>1578469750176</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469750176</updated>
+    </task>
+    <task id="LOCAL-00027" summary="docker app.java update">
+      <created>1578474012477</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474012477</updated>
+    </task>
+    <task id="LOCAL-00028" summary="docker pom.xml update">
+      <created>1578474094862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474094862</updated>
+    </task>
+    <task id="LOCAL-00029" summary="docker dockerfile update">
+      <created>1578474144890</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474144890</updated>
+    </task>
+    <task id="LOCAL-00030" summary="travis.yml updated">
+      <created>1578474264707</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474264707</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First" />
     <MESSAGE value="readme file added" />
     <MESSAGE value="readme" />
     <MESSAGE value="readme 2" />
@@ -235,33 +387,83 @@
     <MESSAGE value="pom update2" />
     <MESSAGE value="travisupdate2" />
     <MESSAGE value="build status (readme.md update)" />
-    <option name="LAST_COMMIT_MESSAGE" value="build status (readme.md update)" />
+    <MESSAGE value="build status" />
+    <MESSAGE value="feature-branch" />
+    <MESSAGE value="mongo" />
+    <MESSAGE value="mongo-pom" />
+    <MESSAGE value="mongo-update (app.java)" />
+    <MESSAGE value="creating Self-contained JAR" />
+    <MESSAGE value="app.java-update" />
+    <MESSAGE value="pom.xml update" />
+    <MESSAGE value="app.java updated" />
+    <MESSAGE value="pom.xml-updated" />
+    <MESSAGE value="docker app.java update" />
+    <MESSAGE value="docker pom.xml update" />
+    <MESSAGE value="docker dockerfile update" />
+    <MESSAGE value="travis.yml updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis.yml updated" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="409" y="33" key="#App" timestamp="1578465243992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="33" key="#App/0.0.1366.728@0.0.1366.728" timestamp="1578465243992" />
+    <state x="409" y="48" key="#Docker_Image" timestamp="1578473754031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="48" key="#Docker_Image/0.0.1366.728@0.0.1366.728" timestamp="1578473754031" />
     <state x="275" y="26" key="#Project_Structure" timestamp="1578383549868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578383549868" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578383375803">
+    <state x="275" y="26" key="#Pull_Image" timestamp="1578456250317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578383375803" />
-    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578455889381">
+    <state x="275" y="26" key="#Pull_Image/0.0.1366.728@0.0.1366.728" timestamp="1578456250317" />
+    <state x="139" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578465761373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578455889381" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1578383523954">
+    <state x="139" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465761373" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578465229979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578383523954" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578455768109">
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
+    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578474142859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578455768109" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578451579458">
+    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578474142859" />
+    <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578451579458" />
+    <state x="255" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1578464060485" />
+    <state width="873" height="146" key="GridCell.Tab.0.bottom" timestamp="1578470187146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="873" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578470187146" />
+    <state width="873" height="146" key="GridCell.Tab.0.center" timestamp="1578470187144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="873" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
+    <state width="873" height="146" key="GridCell.Tab.0.left" timestamp="1578470187144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="873" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
+    <state width="873" height="146" key="GridCell.Tab.0.right" timestamp="1578470187144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="873" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
+    <state x="240" y="0" key="SettingsEditor" timestamp="1578468401512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="240" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578468401512" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578474149078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578474149078" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578468175106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578468175106" />
     <state x="428" y="168" key="git4idea.merge.GitPullDialog" timestamp="1578382877734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
