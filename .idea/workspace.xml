@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
+    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="release1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,22 +119,7 @@
         <serviceView>
           <option name="contentProportion" value="0.35657144" />
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -157,7 +144,8 @@
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
       <workItem from="1578451578943" duration="11726000" />
-      <workItem from="1578468175075" duration="6429000" />
+      <workItem from="1578468175075" duration="6660000" />
+      <workItem from="1578498146499" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -376,15 +364,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578474751037</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test merge">
+      <created>1578475650061</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1578475650061</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme" />
-    <MESSAGE value="readme 2" />
     <MESSAGE value="badges" />
     <MESSAGE value="travis update" />
     <MESSAGE value="travis" />
@@ -408,7 +401,9 @@
     <MESSAGE value="docker dockerfile update" />
     <MESSAGE value="travis.yml updated" />
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="test merge" />
+    <MESSAGE value="release1" />
+    <option name="LAST_COMMIT_MESSAGE" value="release1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1578465243992">
@@ -435,42 +430,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578474748825">
+    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578498589325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578474748825" />
+    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578498589325" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="255" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1578464060485" />
-    <state width="873" height="146" key="GridCell.Tab.0.bottom" timestamp="1578470187146">
+    <state width="873" height="146" key="GridCell.Tab.0.bottom" timestamp="1578475858438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578470187146" />
-    <state width="873" height="146" key="GridCell.Tab.0.center" timestamp="1578470187144">
+    <state width="873" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578475858438" />
+    <state width="873" height="146" key="GridCell.Tab.0.center" timestamp="1578475858435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
-    <state width="873" height="146" key="GridCell.Tab.0.left" timestamp="1578470187144">
+    <state width="873" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578475858435" />
+    <state width="873" height="146" key="GridCell.Tab.0.left" timestamp="1578475858433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
-    <state width="873" height="146" key="GridCell.Tab.0.right" timestamp="1578470187144">
+    <state width="873" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578475858433" />
+    <state width="873" height="146" key="GridCell.Tab.0.right" timestamp="1578475858436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578470187144" />
+    <state width="873" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578475858436" />
     <state x="240" y="0" key="SettingsEditor" timestamp="1578468401512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="240" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578468401512" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578474755186">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578475656142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578474755186" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578468175106">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578475656142" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578498155353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578468175106" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578498155353" />
     <state x="428" y="168" key="git4idea.merge.GitPullDialog" timestamp="1578382877734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
