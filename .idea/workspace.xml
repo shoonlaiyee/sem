@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +61,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
-      <module name="seMethods" />
+      <module name="sem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.napier.sem.*" />
@@ -86,10 +87,14 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.Docker Image" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +143,7 @@
       <workItem from="1578411978641" duration="418000" />
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
-      <workItem from="1578451578943" duration="8168000" />
+      <workItem from="1578451578943" duration="10314000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -259,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578455905591</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feature-branch">
+      <created>1578464085200</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464085200</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,9 +291,14 @@
     <MESSAGE value="travisupdate2" />
     <MESSAGE value="build status (readme.md update)" />
     <MESSAGE value="build status" />
-    <option name="LAST_COMMIT_MESSAGE" value="build status" />
+    <MESSAGE value="feature-branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature-branch" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="409" y="33" key="#App" timestamp="1578465243992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="33" key="#App/0.0.1366.728@0.0.1366.728" timestamp="1578465243992" />
     <state x="409" y="48" key="#Docker_Image" timestamp="1578461786674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -294,26 +311,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Pull_Image/0.0.1366.728@0.0.1366.728" timestamp="1578456250317" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578383375803">
+    <state x="139" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578465761373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578383375803" />
-    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578464063729">
+    <state x="139" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465761373" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578465229979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578464063729" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578466593755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578466593755" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="255" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1578464060485" />
+    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1578465630815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578465630815" />
+    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1578465630814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578465630814" />
+    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1578465630813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578465630813" />
+    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1578465630814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578465630814" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1578383523954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578383523954" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578455912030">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578464089583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578455912030" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578464089583" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578451579458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
