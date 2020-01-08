@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
+    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="creating Self-contained JAR">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,7 @@
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
       <workItem from="1578451578943" duration="11726000" />
-      <workItem from="1578468175075" duration="676000" />
+      <workItem from="1578468175075" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578468511683</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="creating Self-contained JAR">
+      <created>1578468899041</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578468899041</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +325,8 @@
     <MESSAGE value="mongo" />
     <MESSAGE value="mongo-pom" />
     <MESSAGE value="mongo-update (app.java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongo-update (app.java)" />
+    <MESSAGE value="creating Self-contained JAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating Self-contained JAR" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1578465243992">
@@ -344,38 +353,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="93" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578468507884">
+    <state x="89" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578468904921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="93" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578468507884" />
+    <state x="89" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578468904921" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="255" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1578464060485" />
-    <state width="873" height="179" key="GridCell.Tab.0.bottom" timestamp="1578468823267">
+    <state width="873" height="146" key="GridCell.Tab.0.bottom" timestamp="1578469363136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578468823267" />
-    <state width="873" height="179" key="GridCell.Tab.0.center" timestamp="1578468823267">
+    <state width="873" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578469363136" />
+    <state width="873" height="146" key="GridCell.Tab.0.center" timestamp="1578469363135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578468823267" />
-    <state width="873" height="179" key="GridCell.Tab.0.left" timestamp="1578468823267">
+    <state width="873" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578469363135" />
+    <state width="873" height="146" key="GridCell.Tab.0.left" timestamp="1578469363135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578468823267" />
-    <state width="873" height="179" key="GridCell.Tab.0.right" timestamp="1578468823267">
+    <state width="873" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578469363135" />
+    <state width="873" height="146" key="GridCell.Tab.0.right" timestamp="1578469363136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="873" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578468823267" />
+    <state width="873" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578469363136" />
     <state x="240" y="0" key="SettingsEditor" timestamp="1578468401512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="240" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578468401512" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578468519372">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578468911736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578468519372" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578468911736" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578468175106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
