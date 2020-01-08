@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="shoonlaiyee &lt;40440094@live.napier.ac.uk&gt;s" />
         <option value="shoonlaiyee &lt;40440094@live.napier.ac.uk&gt;" />
         <option value="sh" />
       </list>
@@ -158,7 +158,7 @@
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
       <workItem from="1578451578943" duration="11726000" />
-      <workItem from="1578468175075" duration="5572000" />
+      <workItem from="1578468175075" duration="5830000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -342,7 +342,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578469750176</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="docker app.java update">
+      <created>1578474012477</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474012477</updated>
+    </task>
+    <task id="LOCAL-00028" summary="docker pom.xml update">
+      <created>1578474094862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474094862</updated>
+    </task>
+    <task id="LOCAL-00029" summary="docker dockerfile update">
+      <created>1578474144890</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474144890</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +392,10 @@
     <MESSAGE value="pom.xml update" />
     <MESSAGE value="app.java updated" />
     <MESSAGE value="pom.xml-updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml-updated" />
+    <MESSAGE value="docker app.java update" />
+    <MESSAGE value="docker pom.xml update" />
+    <MESSAGE value="docker dockerfile update" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker dockerfile update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1578465243992">
@@ -398,10 +422,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578474092683">
+    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578474142859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578474092683" />
+    <state x="-2" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578474142859" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -426,10 +450,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="240" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578468401512" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578474097940">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578474149078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578474097940" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578474149078" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578468175106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
