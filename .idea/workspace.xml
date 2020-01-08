@@ -109,7 +109,7 @@
       <workItem from="1578411978641" duration="418000" />
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
-      <workItem from="1578451578943" duration="1887000" />
+      <workItem from="1578451578943" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578455099768</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="build status (readme.md update)">
+      <created>1578455764171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578455764171</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +234,8 @@
     <MESSAGE value="pom update" />
     <MESSAGE value="pom update2" />
     <MESSAGE value="travisupdate2" />
-    <option name="LAST_COMMIT_MESSAGE" value="travisupdate2" />
+    <MESSAGE value="build status (readme.md update)" />
+    <option name="LAST_COMMIT_MESSAGE" value="build status (readme.md update)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Project_Structure" timestamp="1578383549868">
@@ -238,18 +246,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578383375803" />
-    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578455097873">
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578455762297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578455097873" />
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578455762297" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1578383523954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578383523954" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578455561415">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578455768109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578455561415" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578455768109" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578451579458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
