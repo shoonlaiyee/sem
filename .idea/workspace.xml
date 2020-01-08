@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,11 @@
       <list>
         <option value="shoonlaiyee &lt;40440094@live.napier.ac.uk&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -105,7 +109,7 @@
       <workItem from="1578411978641" duration="418000" />
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
-      <workItem from="1578451578943" duration="1220000" />
+      <workItem from="1578451578943" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578454888835</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="travisupdate2">
+      <created>1578455099768</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578455099768</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +226,8 @@
     <MESSAGE value="travis 1" />
     <MESSAGE value="pom update" />
     <MESSAGE value="pom update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom update2" />
+    <MESSAGE value="travisupdate2" />
+    <option name="LAST_COMMIT_MESSAGE" value="travisupdate2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Project_Structure" timestamp="1578383549868">
@@ -226,18 +238,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578383375803" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1578454886177">
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1578455097873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578454886177" />
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578455097873" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1578383523954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578383523954" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578454893006">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578455561415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578454893006" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578455561415" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578451579458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
