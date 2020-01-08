@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="pom.xml update">
+    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,7 @@
       <workItem from="1578412440596" duration="5000" />
       <workItem from="1578412521161" duration="2160000" />
       <workItem from="1578451578943" duration="11726000" />
-      <workItem from="1578468175075" duration="1413000" />
+      <workItem from="1578468175075" duration="1544000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578469432139</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="app.java updated">
+      <created>1578469621224</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469621224</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +347,8 @@
     <MESSAGE value="creating Self-contained JAR" />
     <MESSAGE value="app.java-update" />
     <MESSAGE value="pom.xml update" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml update" />
+    <MESSAGE value="app.java updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="app.java updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1578465243992">
@@ -367,10 +375,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578469597706">
+    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578469618592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578469597706" />
+    <state x="78" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578469618592" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -395,10 +403,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="240" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578468401512" />
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578469412497">
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578469626434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578469412497" />
+    <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578469626434" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578468175106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
