@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="release1">
+    <list default="true" id="0d72007c-218e-4329-8e4a-e26fcdf9876d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/test_db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/mongo-intergration" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,13 +49,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1W3coQ7VH4DKxrcHEUAWVCSdLYG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -63,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Docker.db/Dockerfile">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -98,17 +102,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="db/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="db/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.Docker Image" />
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.db/Dockerfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.db/Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
@@ -119,7 +132,17 @@
         <serviceView>
           <option name="contentProportion" value="0.35657144" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -146,6 +169,9 @@
       <workItem from="1578451578943" duration="11726000" />
       <workItem from="1578468175075" duration="6660000" />
       <workItem from="1578498146499" duration="625000" />
+      <workItem from="1578500046607" duration="133000" />
+      <workItem from="1578538923996" duration="161000" />
+      <workItem from="1578836162877" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1578383071294</created>
@@ -378,6 +404,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="badges" />
     <MESSAGE value="travis update" />
     <MESSAGE value="travis" />
@@ -430,10 +457,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1578465229979" />
-    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578498589325">
+    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2" timestamp="1578837549390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578498589325" />
+    <state x="10" y="0" width="1255" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578837549390" />
     <state x="255" y="61" key="DiffContextDialog" timestamp="1578464060485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -462,13 +489,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="269" y="90" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578475656142" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578498155353">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578538924845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578498155353" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578538924845" />
     <state x="428" y="168" key="git4idea.merge.GitPullDialog" timestamp="1578382877734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="428" y="168" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1578382877734" />
+    <state x="65" y="69" key="new project wizard" timestamp="1578539043084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="69" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578539043084" />
   </component>
 </project>
